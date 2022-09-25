@@ -1,0 +1,16 @@
+/* Hide scroll bar*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+footer{
+    color : #bababa;
+}
+
+footer,a:hover{
+    transition-duration: 0.2s;
+    text-decoration: none;
+}
+
+footer,a{
+    transition-duration: 0.2s;
+}
