@@ -45,7 +45,7 @@
 
 <main>
 
-    <div class="uk-background-cover uk-margin-large-bottom uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-light uk-animation-fade"
+    <div class="uk-background-cover uk-margin-large-bottom uk-height-medium uk-light uk-animation-fade"
          uk-height-viewport="min-height: 300px; offset-bottom: 11.25"
          style="background-image: url(img/plane.png)">
     </div>
@@ -74,7 +74,7 @@
                     engagements de production et de livraison.
                 </p>
 
-                <hr class="uk-container uk-margin-large-top">
+                <hr class="uk-container uk-margin-large-top uk-margin-large-bottom">
 
                 <div class="uk-child-width-1-2@l uk-child-width-1-1@s uk-margin-auto-left" uk-grid>
                     <table class="uk-table uk-table-divider">
@@ -149,9 +149,98 @@
                     </table>
                 </div>
 
-                <hr class="uk-container uk-margin-large-top">
+                <hr class="uk-container uk-margin-large-top uk-margin-large-bottom">
 
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top uk-margin-large-bottom" uk-grid>
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="img/bg.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h4>Extension des capacités</h4>
+                            <p>Le BelugaXL remplacera progressivement la flotte BelugaST existante de cinq membres - volant entre 11 destinations à travers l'Europe.</p>
+                            <p>Outre l'utilisation importante de composants et d'équipements existants, notamment les moteurs Trent 772B de Rolls Royce, la flotte BelugaXL basée sur l'Airbus A330 intègre des éléments nouvellement développés, notamment son cockpit abaissé, une structure de soute très agrandie et des sections arrière et arrière modifiées.</p>
+                            <p>Dimensionné à sept mètres plus long et un mètre plus large que son prédécesseur BelugaST, le BelugaXL offre 30% de capacité de transport supplémentaire. A titre d'exemple, un BelugaXL peut accueillir deux ailes d'avion de ligne A350, contre une dans le BelugaST.</p>
+                            <p>Avec une charge utile maximale de 51 tonnes , le BelugaXL a une autonomie de 4 000 km (2 200 nm).</p>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top uk-margin-large-bottom" uk-grid>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img src="img/fast.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h4>Rapidité et efficacité</h4>
+                            <p>Comme pour le BelugaST, les BelugaXL sont équipés de systèmes de chargement de fret pour assurer une manipulation facile et efficace des charges utiles, contrôlées par les équipages formés de la filiale d'Airbus Transport International (ATI).</p>
+                            <p>Grâce à la nouvelle efficacité des systèmes, le temps de rotation (TAT) du BelugaXL est d'environ 1 heure, réduit de près de moitié par rapport à un BelugaST.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-cover-container uk-height-medium uk-margin-large-top uk-margin-large-bottom" style="height:auto">
+                    <img src="img/info.jpg">
+                </div>
+
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img src="img/airport.jpg" alt="" uk-cover>
+                        <canvas width="600" height="400"></canvas>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h4>Pont d'envol</h4>
+                            <p>Le BelugaXL est exploité par deux pilotes, profitant du cockpit moderne de l' A330 sur lequel les derniers systèmes et technologies développés pour d'autres programmes ont été transférés , garantissant ainsi une avance technologique et des avantages communs.</p>
+                            <p>Ceux-ci comprennent les commandes de vol électriques, les écrans à cristaux liquides (LCD) et le système de connaissance de la situation du trafic aéroportuaire (ATSA). Fin 2021, la RNP AR (Required Navigation Performance Authorization Required) sera ajoutée. Ce système améliore l'accès aux endroits avec un environnement difficile. </p>
+                            <p>Fin 2022, ROPS (Runway Overrun Prevention System) et AP/FD TCAS (Autopilot/Flight Director Traffic Collision Avoidance System) doivent être intégrés. Lors des atterrissages, le ROPS prédit la distance d'atterrissage opérationnelle et avertit les équipages du risque de dépassement lors des opérations de freinage automatique et de freinage manuel, tandis que des manœuvres d'évitement automatique avec AP/FD TCAS (Autopilot/Flight Director Traffic Collision Avoidance System) sont effectuées en cas de collision. risque avec un autre avion.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="uk-container uk-margin-large-top uk-margin-large-bottom">
+
+                <div class="uk-child-width-1-2 uk-margin-medium-bottom uk-flex uk-flex-middle" uk-grid>
+                    <div>
+                        <h2 class="uk-text-bold">Passez à l'étape suivante !</h2>
+                        <h3>Parlez à un expert BelugaXL</h3>
+                    </div>
+                    <div class="">
+                        <!-- This is a button toggling the modal -->
+                        <button class="uk-button uk-button-default uk-margin-small-right uk-align-right" type="button" uk-toggle="target: #modal-example">Contactez-moi</button>
+
+                        <!-- This is the modal -->
+                        <div id="modal-example" uk-modal>
+                            <div class="uk-modal-dialog uk-modal-body">
+                                <form name="contact" method="POST" data-netlify="true">
+                                    <fieldset class="uk-fieldset">
+
+                                        <legend class="uk-legend">Contactez-moi</legend>
+
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="text" name="name" placeholder="Nom">
+                                        </div>
+
+                                        <div class="uk-margin">
+                                            <input class="uk-input" type="email" name="email" placeholder="Adresse mail">
+                                        </div>
+
+                                        <div class="uk-margin">
+                                            <textarea class="uk-textarea" rows="5" name="message" placeholder="Message"></textarea>
+                                        </div>
+
+                                        <p class="uk-text-right">
+                                    <button class="uk-button uk-button-default uk-modal-close" type="button">Annuler</button>
+                                    <button class="uk-button uk-button-primary" type="submit" name="submit">Envoyer</button>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="uk-container uk-margin-large-top uk-margin-large-bottom">
 
             </div>
         </div>
@@ -160,13 +249,14 @@
 
 <footer>
     <div class="uk-container">
-        <div class="uk-margin-medium-bottom uk-margin-large-top">
-            <p class="uk-flex uk-flex-center uk-flex-middle">Beluga XL produit par <a
+        <div class="uk-margin-medium-bottom">
+            <p class="uk-flex uk-flex-center uk-flex-middle">Site web imaginé par <a
+                class="uk-link-text uk-margin-small-left" href="https://ouvrobin.netlify.app/" target="_blank">Ouvrard
+            Robin</a></p>
+            <p class="uk-flex uk-flex-center uk-flex-middle">D'après les informations fournies par<a
                     class="uk-link-text uk-margin-small-left" href="https://www.airbus.com/en"
                     target="_blank">Airbus</a></p>
-            <p class="uk-flex uk-flex-center uk-flex-middle">Site web imaginé par <a
-                    class="uk-link-text uk-margin-small-left" href="https://ouvrobin.netlify.app/" target="_blank">Ouvrard
-                Robin</a></p>
+
         </div>
     </div>
 

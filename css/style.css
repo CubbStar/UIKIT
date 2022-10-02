@@ -14,3 +14,9 @@ footer,a:hover{
 footer,a{
     transition-duration: 0.2s;
 }
+
+h4{
+    color:#002d80;
+    font-size: 32px;
+    font-family: "Arial Black";
+}
