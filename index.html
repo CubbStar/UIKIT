@@ -158,7 +158,7 @@
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top uk-margin-large-bottom" uk-grid>
                     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                        <img src="img/bg.jpg" alt="" uk-cover>
+                        <img src="img/bg.png" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
@@ -174,7 +174,7 @@
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top uk-margin-large-bottom" uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img src="img/fast.jpg" alt="" uk-cover>
+                        <img src="img/fast.png" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
@@ -192,7 +192,7 @@
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                        <img src="img/airport.jpg" alt="" uk-cover>
+                        <img src="img/airport.png" alt="" uk-cover>
                         <canvas width="600" height="400"></canvas>
                     </div>
                     <div>
@@ -208,13 +208,13 @@
                 <hr class="uk-container uk-margin-large-top uk-margin-large-bottom">
 
                 <div class="uk-child-width-1-2 uk-margin-medium-bottom uk-flex uk-flex-middle" uk-grid>
-                    <div>
+                    <div uk-scrollspy="cls: uk-animation-slide-left-medium;">
                         <h2 class="uk-text-bold">Passez à l'étape suivante !</h2>
                         <h3>Parlez à un expert BelugaXL</h3>
                     </div>
                     <div class="">
                         <!-- This is a button toggling the modal -->
-                        <button class="uk-button uk-button-default uk-margin-small-right uk-align-right" type="button" uk-toggle="target: #modal-example">Contactez-moi</button>
+                        <button uk-scrollspy="cls: uk-animation-slide-right-medium;" class="uk-button uk-button-default uk-margin-small-right uk-align-right" type="button" uk-toggle="target: #modal-example">Contactez-moi</button>
 
                         <!-- This is the modal -->
                         <div id="modal-example" uk-modal>
@@ -238,7 +238,7 @@
 
                                         <p class="uk-text-right">
                                             <button class="uk-button uk-button-default uk-modal-close" type="button">Annuler</button>
-                                            <button class="uk-button uk-button-primary" type="submit" name="submit">Envoyer</button>
+                                            <button class="uk-button uk-button-primary send-bt" type="submit" name="submit">Envoyer</button>
                                         </p>
                                     </fieldset>
                                 </form>
