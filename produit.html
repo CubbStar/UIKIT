@@ -1,68 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Airbus - Home</title>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link rel="shortcut icon" href="img/AIR.PA.png" type="image/x-icon" />
-  <link href="css/uikit.css" rel="stylesheet"/>
-  <link href="css/style.css" rel="stylesheet"/>
-  <link href="css/normalize.css" rel="stylesheet"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Airbus - Produit</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="img/AIR.PA.png" rel="shortcut icon" type="image/x-icon"/>
+    <link href="css/uikit.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/normalize.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
 
-  <script src="js/uikit.js"></script>
-  <script src="js/uikit-icons.js"></script>
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
 </head>
 <body>
-  <header>
+<header>
     <div class="uk-container">
-      <nav class="uk-navbar-container" uk-navbar style="background-color: white">
-        <div class="uk-navbar-center uk-margin-medium-top">
-          <ul class="uk-navbar-nav">
-            <li><a href="index.html">ACCUEIL</a></li>
-            <li>
-              <a href="produit.html">Produit</a>
-              <div class="uk-navbar-dropdown">
-                <ul class="uk-nav uk-navbar-dropdown-nav">
-                  <li><a href="beluga.html" target=”_blank”>Bulga</a></li>
-                  <li><a href="https://aircraft.airbus.com/en" target=”_blank”>Avions</a></li>
+        <nav class="uk-navbar-container" style="background-color: white" uk-navbar>
+            <div class="uk-navbar-center uk-margin-medium-top">
+                <ul class="uk-navbar-nav">
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li class="uk-active">
+                        <a href="produit.html">Produit</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li><a href="beluga.html" target=”_blank”>Bulga</a></li>
+                                <li><a href="https://aircraft.airbus.com/en" target=”_blank”>Avions</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-              </div>
-            </li>
-            <li class="uk-active"><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="uk-navbar-right">
-          <div data-src="img/logo.png" uk-img></div>
-        </div>
-      </nav>
+            </div>
+            <div class="uk-navbar-right">
+                <div data-src="img/logo.png" uk-img></div>
+            </div>
+        </nav>
     </div>
-  </header>
+</header>
 <main>
-  <div class="uk-container uk-margin-large-top">
-    <div class="uk-container">
-      <div>
-      <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-<!--        <div class="uk-flex-last@s uk-card-media-left uk-cover-container">-->
-<!--          <img src="img/bg.png" alt="" uk-cover>-->
-<!--          <canvas width="600" height="400"></canvas>-->
-<!--        </div>-->
-        <div>
-          <div class="uk-card-body">
-            <h4 class="uk-text-bold">BulgaXL</h4>
-            <h5>Efficace et mignon</h5>
-            <p>Bonsoir<p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="uk-card uk-card-default uk-card-body">Item</div>
-      </div>
+    <div class="uk-background-cover uk-margin-large-top uk-height-medium uk-light uk-animation-fade"
+         style="background-image: url(img/flote.jpg)"
+         uk-height-viewport="min-height: 300px; offset-bottom: 11.25">
     </div>
-  </div>
+    <div class="uk-container uk-margin-large-top">
+        <div class="uk-container">
+            <h3>Les produits airbus sont conçus avec les mots qualité et sécurité</h3>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" uk-grid>
+                <div class="uk-flex-last@m uk-card-media-right uk-cover-container">
+                    <img alt="" src="img/beluga-product.jpg" uk-cover>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h4 class="uk-text-bold">BulgaXL</h4>
+                        <h5>Efficace et mignon</h5>
+                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
+                            mission: to explore strange new worlds, to seek out new life and new civilizations, to
+                            boldly go where no man has gone before. Many say exploration is part of our destiny, but
+                            it’s actually our duty to future generations and their quest to ensure the survival of the
+                            human species.
+                        <p>
+                            <a class="uk-button uk-button-primary bt-blue" href="beluga.html">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin-large-top uk-margin-large-bottom"
+                 uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img alt="" src="img/a380-produit.jpg" uk-cover>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h4 class="uk-text-bold">A380</h4>
+                        <h5>Le géant du ciel</h5>
+                        <p>Graçe à son aerodynachibre vectorisé en 3ième degré temporelle, le lelavion a380 est
+                            polyvalencienne en Y orthonormé, ce qui lui offre la possibili tits de tretransporteŕune
+                            masse énorme de twix et de duplo. Écoutez le professeur jean néralcu à ce sujet
+                        <p>
+                            <a class="uk-button uk-button-primary bt-blue" href="beluga.html">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" uk-grid>
+                <div class="uk-flex-last@m uk-card-media-right uk-cover-container">
+                    <img alt="" src="img/a350-produit.jpg" uk-cover>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h4 class="uk-text-bold">A350</h4>
+                        <h5>Feuille propre. Démarrage propre.</h5>
+                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
+                            mission: to explore strange new worlds, to seek out new life and new civilizations, to
+                            boldly go where no man has gone before. Many say exploration is part of our destiny, but
+                            it’s actually our duty to future generations and their quest to ensure the survival of the
+                            human species.
+                        <p>
+                            <a class="uk-button uk-button-primary bt-blue" href="beluga.html">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin-large-top uk-margin-large-bottom"
+                 uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img alt="" src="img/a220-produit.jpg" uk-cover>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h4 class="uk-text-bold">A220</h4>
+                        <h5>L'avion monocouloir révolutionnaire</h5>
+                        <p>Graçe à son aerodynachibre vectorisé en 3ième degré temporelle, le lelavion a380 est
+                            polyvalencienne en Y orthonormé, ce qui lui offre la possibili tits de tretransporteŕune
+                            masse énorme de twix et de duplo. Écoutez le professeur jean néralcu à ce sujet
+                        <p>
+                            <a class="uk-button uk-button-primary bt-blue" href="beluga.html">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" uk-grid>
+                <div class="uk-flex-last@m uk-card-media-right uk-cover-container">
+                    <img alt="" src="img/acj330neo-produit.jpg" uk-cover>
+                    <canvas height="400" width="600"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h4 class="uk-text-bold">ACJ330neo</h4>
+                        <h5>Luxe et technologie</h5>
+                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
+                            mission: to explore strange new worlds, to seek out new life and new civilizations, to
+                            boldly go where no man has gone before. Many say exploration is part of our destiny, but
+                            it’s actually our duty to future generations and their quest to ensure the survival of the
+                            human species.
+                        <p>
+                            <a class="uk-button uk-button-primary bt-blue" href="beluga.html">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 
 </body>
+<footer>
+    <div class="uk-container uk-margin-large-top">
+        <div class="uk-margin-medium-bottom">
+            <p class="uk-flex uk-flex-center uk-flex-middle">Site web imaginé par <a
+                    class="uk-link-text uk-margin-small-left" href="https://ouvrobin.netlify.app/" target="_blank">Ouvrard
+                Robin</a></p>
+            <p class="uk-flex uk-flex-center uk-flex-middle">D'après les informations fournies par<a
+                    class="uk-link-text uk-margin-small-left" href="https://www.airbus.com/en"
+                    target="_blank">Airbus</a></p>
+        </div>
+    </div>
+</footer>
 </html>
