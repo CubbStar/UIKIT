@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Airbus - Contact</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="shortcut icon" href="img/AIR.PA.png" type="image/x-icon" />
+    <link href="css/uikit.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/normalize.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="js/uikit.js"></script>
+    <script src="js/uikit-icons.js"></script>
+</head>
+<body>
+    <header>
+        <div class="uk-container">
+            <nav class="uk-navbar-container" uk-navbar style="background-color: white">
+                <div class="uk-navbar-center uk-margin-medium-top">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="index.html">ACCUEIL</a></li>
+                        <li>
+                            <a href="produit.html">Produit</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li><a href="beluga.html" target=”_blank”>Bulga</a></li>
+                                    <li><a href="https://aircraft.airbus.com/en" target=”_blank”>Avions</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="uk-active"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <div data-src="img/logo.png" uk-img></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="uk-container uk-margin-large-top uk-position-center uk-width-expand">
+        <div class="uk-container">
+            <div class="uk-child-width-2xlarge uk-margin uk-flex uk-flex-middle" uk-grid>
+                <div uk-scrollspy="cls: uk-animation-slide-left-medium;">
+                    <h2 class="uk-text-bold">Passez à l'étape suivante !</h2>
+                    <h3>Contactez Airbus</h3>
+                </div>
+                <div class="form">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <fieldset class="uk-fieldset">
+                            <div class="uk-margin">
+                                <label class="uk-form-label">Nom</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" type="text" name="name" placeholder="Dupont">
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <label class="uk-form-label">Email</label>
+                                <div class="uk-form-controls">
+                                    <input class="uk-input" type="email" name="email" placeholder="dupont@mail.fr">
+                                </div>
+                            </div>
+                            <div class="uk-margin">
+                                <label class="uk-form-label">Message</label>
+                                <textarea class="uk-textarea" rows="5" name="message" placeholder="Ecrivez ce que vous voulez..."></textarea>
+                            </div>
+                            <p class="uk-text-right">
+                                <button class="uk-button uk-button-primary send-bt" type="submit" name="submit">Envoyer</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

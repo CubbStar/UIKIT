@@ -28,6 +28,10 @@ html{
     font-family: 'Montserrat';
 }
 
+.airbus-color{
+    color:#002d80;
+}
+
 footer{
     color : #bababa;
 }
@@ -39,13 +43,6 @@ footer,a:hover{
 
 footer,a{
     transition-duration: 0.2s;
-}
-
-h4{
-    color:#002d80;
-    font-size: 32px;
-    font-family: 'Montserrat';
-    font-weight: 600;
 }
 
 h1{
@@ -63,6 +60,18 @@ h2{
 h3{
     font-family: 'Montserrat';
     font-weight: 600;
+}
+
+h4{
+    color:#002d80;
+    font-size: 32px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+h5{
+    font-family: 'Montserrat';
+    font-weight: 800;
 }
 
 .send-bt{
