@@ -21,7 +21,7 @@
         <nav class="uk-navbar-container" style="background-color: white" uk-navbar>
             <div class="uk-navbar-center uk-margin-medium-top">
                 <ul class="uk-navbar-nav">
-                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li class="uk-active"><a href="index.html">ACCUEIL</a></li>
                     <li>
                         <a href="produit.html">Produit</a>
                         <div class="uk-navbar-dropdown">
@@ -31,7 +31,7 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="uk-active"><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="uk-navbar-right">
@@ -42,132 +42,64 @@
 </header>
 <main>
     <iframe allowfullscreen frameborder="0" height="100%"
-            src="https://www.youtube.com/embed/JS6w-DXiZpk?autoplay=0&showinfo=0&controls=0" uk-video="automute: true" width="100%"></iframe>
+            src="https://www.youtube.com/embed/JS6w-DXiZpk?autoplay=0&showinfo=0&controls=0" uk-video="automute: true"
+            width="100%"></iframe>
     <div>
         <div class="uk-container uk-margin-large-top">
             <div class="uk-container">
-                <h1 style="font-size: 48px" uk-scrollspy="cls: uk-animation-scale-up">AIRBUS</h1>
-                <h3>Pionnier de l'aérospatiale durable pour un monde sûr et solidaire</h3>
-                <div class="uk-child-width-1-2 uk-margin-medium-bottom" uk-grid>
-                    <p uk-scrollspy="cls: uk-animation-slide-left-medium;">L’Airbus A330-743L Beluga XL est
-                        un avion-cargo du groupe aéronautique Airbus. Il doit son nom à sa forme particulière,
-                        ressemblant à celle du cétacé (comme celle de l'A300-600ST Beluga dont il est le successeur).
-                        Dérivé de l'avion de ligne cargo A330-200F, le Beluga XL peut emporter une charge de plus de 53
-                        tonnes sur une distance maximale de 4 000 km : sa soute est plus longue de 6 m et plus large de
-                        1 m que l'A300-600ST Beluga.</p>
-                    <p uk-scrollspy="cls: uk-animation-slide-left-medium;">Six exemplaires du Beluga XL
-                        sont prévus. Ils doivent remplacer progressivement entre 2019 et 2025 les anciens Beluga
-                        d'Airbus Transport International3 pour le transport de sections d'appareils Airbus entre les
-                        divers sites de production en Europe.</p>
-                </div>
-                <p uk-scrollspy="cls: uk-animation-slide-bottom-medium;">Le BelugaXL a effectué son vol inaugural en
-                    2018 et a reçu la certification de type en novembre 2019
-                    de l'autorité de navigabilité de l'Agence de la sécurité aérienne de l'Union européenne (AESA). Cela
-                    a ouvert la voie à l'entrée en service du premier BelugaXL en janvier 2020.
-                    Comme pour le BelugaST, la flotte BelugaXL opérera sur 11 destinations en Europe, continuant à
-                    renforcer les capacités industrielles d'Airbus et permettant à l'entreprise de respecter ses
-                    engagements de production et de livraison.
-                </p>
-
-                <hr class="uk-container uk-margin-large-top uk-margin-large-bottom">
-
-                <div class="uk-child-width-1-2@l uk-child-width-1-1@s uk-margin-auto-left" uk-grid>
-                    <table class="uk-table uk-table-divider" uk-scrollspy="cls: uk-animation-slide-left-medium;">
-                        <thead>
-                        <tr>
-                            <th>Dimensions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Longueur totale</td>
-                            <td>63,1 m</td>
-                        </tr>
-                        <tr>
-                            <td>Hauteur</td>
-                            <td>18,9 m</td>
-                        </tr>
-                        <tr>
-                            <td>Envergure</td>
-                            <td>60,3 m</td>
-                        </tr>
-                        <tr>
-                            <td>Largeur du fuselage</td>
-                            <td>8,8 m</td>
-                        </tr>
-                        <tr>
-                            <td>Longueur du volume chargeable</td>
-                            <td>46,8 m</td>
-                        </tr>
-                        <tr>
-                            <td>Largeur maximale de la section chargeable</td>
-                            <td>8,1 m</td>
-                        </tr>
-                        <tr>
-                            <td>Hauteur maximale de la section chargeable</td>
-                            <td>7,5 m</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <table class="uk-table uk-table-divider uk-height-max-medium"
-                           uk-scrollspy="cls: uk-animation-slide-right-medium;">
-                        <thead>
-                        <tr>
-                            <th>Performance</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Charge utile maximale</td>
-                            <td>44 t</td>
-                        </tr>
-                        <tr>
-                            <td>Portée maximale</td>
-                            <td>4 000 km</td>
-                        </tr>
-                        <tr>
-                            <td>Masse maximale au décollage</td>
-                            <td>227 t</td>
-                        </tr>
-                        <tr>
-                            <td>Masse maximale à l'atterrissage</td>
-                            <td>187 t</td>
-                        </tr>
-                        <tr>
-                            <td>Poids maximum sans carburant</td>
-                            <td>178 t</td>
-                        </tr>
-                        <tr>
-                            <td>Capacité maximale de carburant (densité = 0,803)</td>
-                            <td>73,3 t</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                <div>
+                    <h1 style="font-size: 48px" uk-scrollspy="cls: uk-animation-scale-up">AIRBUS</h1>
+                    <h2>Pionnier de l'aérospatiale durable pour un monde sûr et solidaire</h2>
+                    <h3 class="h3-index" uk-scrollspy="cls: uk-animation-slide-bottom-medium;">Airbus is a leader in <b
+                            class="h3-bold-index">designing, manufacturing
+                        and delivering aerospace products, services and solutions</b> to customers on a worldwide scale.
+                    </h3>
+                    <h3 class="h3-index" uk-scrollspy="cls: uk-animation-slide-bottom-medium;">With <b
+                            class="h3-bold-index">around 130,000 employees</b> and as the
+                        <b class="h3-bold-index">largest aeronautics and space company</b> in Europe and a worldwide
+                        leader, Airbus is at the forefront
+                        of the aviation industry. We build the most innovative commercial aircraft and consistently
+                        capture
+                        about half of all commercial airliner orders. Thanks to our deep understanding of changing
+                        market
+                        needs, customer focus and technological innovation, we offer products that connect people and
+                        places
+                        via air and space.</h3>
                 </div>
 
                 <hr class="uk-container uk-margin-large-top uk-margin-large-bottom">
 
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top uk-margin-large-bottom"
                      uk-grid>
-                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                        <img alt="" src="img/bg.png" uk-cover>
-                        <canvas height="400" width="600"></canvas>
+                    <div class="uk-card-media-left uk-cover-container">
+                        <img alt="" src="img/family-flight-main-card.jpg" uk-cover>
                     </div>
                     <div>
                         <div class="uk-card-body">
-                            <h4>Extension des capacités</h4>
-                            <p>Le BelugaXL remplacera progressivement la flotte BelugaST existante de cinq membres -
-                                volant entre 11 destinations à travers l'Europe.</p>
-                            <p>Outre l'utilisation importante de composants et d'équipements existants, notamment les
-                                moteurs Trent 772B de Rolls Royce, la flotte BelugaXL basée sur l'Airbus A330 intègre
-                                des éléments nouvellement développés, notamment son cockpit abaissé, une structure de
-                                soute très agrandie et des sections arrière et arrière modifiées.</p>
-                            <p>Dimensionné à sept mètres plus long et un mètre plus large que son prédécesseur BelugaST,
-                                le BelugaXL offre 30% de capacité de transport supplémentaire. A titre d'exemple, un
-                                BelugaXL peut accueillir deux ailes d'avion de ligne A350, contre une dans le
-                                BelugaST.</p>
-                            <p>Avec une charge utile maximale de 51 tonnes , le BelugaXL a une autonomie de 4 000 km (2
-                                200 nm).</p>
+                            <h4>Nous sommes Airbus</h4>
+                            <p>En tant que leader reconnu du secteur aérospatial mondial, Airbus conçoit, produit et
+                                fournit des solutions innovantes dans le but de créer un monde mieux connecté, plus sûr
+                                et plus prospère.</p>
+                            <p>Avionneur commercial, avec les divisions Espace et Défense ainsi que les Divisions
+                                Hélicoptères, Airbus est la plus grande entreprise aéronautique et spatiale en Europe et
+                                un leader mondial .</p>
+                            <a class="uk-button uk-button-primary bt-blue" href="https://www.airbus.com/en/who-we-are/we-are-airbus">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top uk-margin-large-bottom"
+                     uk-grid>
+                    <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                        <img alt="" src="img/Worlwide_main-card.jpg" uk-cover>
+                    </div>
+                    <div>
+                        <div class="uk-card-body">
+                            <h4>Notre présence mondiale</h4>
+                            <p>En tant qu'entreprise mondiale comptant environ 130 000 employés dans le monde, Airbus
+                                exerce des activités commerciales en Europe, aux Amériques, en Afrique et au
+                                Moyen-Orient et en Asie.</p>
+                            <a class="uk-button uk-button-primary bt-blue" href="https://www.airbus.com/en/our-worldwide-presence">En savoir plus</a>
                         </div>
                     </div>
                 </div>
@@ -175,48 +107,36 @@
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top uk-margin-large-bottom"
                      uk-grid>
                     <div class="uk-card-media-left uk-cover-container">
-                        <img alt="" src="img/fast.png" uk-cover>
-                        <canvas height="400" width="600"></canvas>
+                        <img alt="" src="img/Airbus-flag_main-card.jpg" uk-cover>
                     </div>
                     <div>
                         <div class="uk-card-body">
-                            <h4>Rapidité et efficacité</h4>
-                            <p>Comme pour le BelugaST, les BelugaXL sont équipés de systèmes de chargement de fret pour
-                                assurer une manipulation facile et efficace des charges utiles, contrôlées par les
-                                équipages formés de la filiale d'Airbus Transport International (ATI).</p>
-                            <p>Grâce à la nouvelle efficacité des systèmes, le temps de rotation (TAT) du BelugaXL est
-                                d'environ 1 heure, réduit de près de moitié par rapport à un BelugaST.</p>
+                            <h4>Notre gouvernance</h4>
+                            <p>La gouvernance d'entreprise d' Airbus garantit qu'Airbus est géré conformément à nos lois
+                                réglementaires et à nos statuts, et évolue afin de répondre à nos ambitions de
+                                croissance, de remplir nos obligations et d'atteindre les objectifs que nous nous sommes
+                                fixés. Notre Gouvernance s'attache à être une instance transparente, à la hauteur des
+                                attentes des actionnaires de la Société à travers le monde. </p>
+                            <a class="uk-button uk-button-primary bt-blue" href="https://www.airbus.com/en/who-we-are/our-governance">En savoir plus</a>
                         </div>
                     </div>
                 </div>
 
-                <div class="uk-cover-container uk-height-medium uk-margin-large-top uk-margin-large-bottom"
-                     style="height:auto">
-                    <img src="img/info.jpg">
-                </div>
-
                 <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
                     <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-                        <img alt="" src="img/airport.png" uk-cover>
-                        <canvas height="400" width="600"></canvas>
+                        <img alt="" src="img/main-history-image-main-card.jpg" uk-cover>
                     </div>
                     <div>
                         <div class="uk-card-body">
-                            <h4>Pont d'envol</h4>
-                            <p>Le BelugaXL est exploité par deux pilotes, profitant du cockpit moderne de l' A330 sur
-                                lequel les derniers systèmes et technologies développés pour d'autres programmes ont été
-                                transférés , garantissant ainsi une avance technologique et des avantages communs.</p>
-                            <p>Ceux-ci comprennent les commandes de vol électriques, les écrans à cristaux liquides
-                                (LCD) et le système de connaissance de la situation du trafic aéroportuaire (ATSA). Fin
-                                2021, la RNP AR (Required Navigation Performance Authorization Required) sera ajoutée.
-                                Ce système améliore l'accès aux endroits avec un environnement difficile. </p>
-                            <p>Fin 2022, ROPS (Runway Overrun Prevention System) et AP/FD TCAS (Autopilot/Flight
-                                Director Traffic Collision Avoidance System) doivent être intégrés. Lors des
-                                atterrissages, le ROPS prédit la distance d'atterrissage opérationnelle et avertit les
-                                équipages du risque de dépassement lors des opérations de freinage automatique et de
-                                freinage manuel, tandis que des manœuvres d'évitement automatique avec AP/FD TCAS
-                                (Autopilot/Flight Director Traffic Collision Avoidance System) sont effectuées en cas de
-                                collision. risque avec un autre avion.</p>
+                            <h4>Notre histoire</h4>
+                            <p>Avec 50 ans d'expérience en matière d'innovation, de premières technologiques et d'étapes
+                                importantes dans l'industrie, Airbus est un leader dans la conception, la fabrication et
+                                la fourniture de produits, services et solutions aérospatiaux à une clientèle qui couvre
+                                le monde entier - avec des opérations pour les avions commerciaux, les hélicoptères, la
+                                défense , espace et sécurité.</p>
+                            <p>Faites un voyage à travers certains des temps forts de notre entreprise au cours des 50
+                                dernières années et apprenez-en plus sur la réussite continue d'Airbus. </p>
+                            <a class="uk-button uk-button-primary bt-blue" href="https://www.airbus.com/en/who-we-are/our-history">En savoir plus</a>
                         </div>
                     </div>
                 </div>
@@ -226,7 +146,7 @@
                 <div class="uk-child-width-1-2 uk-margin-medium-bottom uk-flex uk-flex-middle" uk-grid>
                     <div uk-scrollspy="cls: uk-animation-slide-left-medium;">
                         <h2 class="uk-text-bold">Passez à l'étape suivante !</h2>
-                        <h3>Parlez à un expert BelugaXL</h3>
+                        <h3>Contactez Airbus</h3>
                     </div>
                     <div class="">
                         <!-- This is a button toggling the modal -->
@@ -241,7 +161,7 @@
                                 <form data-netlify="true" method="POST" name="contact">
                                     <fieldset class="uk-fieldset">
 
-                                        <legend class="uk-legend">Contactez-moi</legend>
+                                        <legend class="uk-legend">Contactez-Nous</legend>
 
                                         <div class="uk-margin">
                                             <input class="uk-input" name="name" placeholder="Nom" type="text">
