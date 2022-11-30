@@ -19,7 +19,7 @@
 <body>
 <header>
     <div class="uk-container">
-        <nav class="uk-navbar-container" style="background-color: white" uk-navbar>
+        <nav class="uk-navbar-container" uk-navbar>
             <div class="uk-navbar-center uk-margin-medium-top">
                 <ul class="uk-navbar-nav">
                     <li><a href="index.html">ACCUEIL</a></li>
@@ -46,7 +46,11 @@
     </div>
 </header>
 <main>
-    <div class="uk-background-cover uk-margin-large-top uk-height-medium uk-light uk-animation-fade"
+    <div class="uk-background-cover uk-height-medium uk-margin-large-top uk-visible@l uk-light uk-animation-fade"
+         style="background-image: url(img/flote.jpg)"
+         uk-height-viewport="min-height: 300px; offset-bottom: 11.25">
+    </div>
+    <div class="uk-background-cover uk-height-medium uk-margin-xlarge-top uk-hidden@l uk-light uk-animation-fade"
          style="background-image: url(img/flote.jpg)"
          uk-height-viewport="min-height: 300px; offset-bottom: 11.25">
     </div>
@@ -61,11 +65,10 @@
                     <div class="uk-card-body">
                         <h4 class="uk-text-bold">BelugaXL</h4>
                         <h5>Efficace et mignon</h5>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
-                            mission: to explore strange new worlds, to seek out new life and new civilizations, to
-                            boldly go where no man has gone before. Many say exploration is part of our destiny, but
-                            it’s actually our duty to future generations and their quest to ensure the survival of the
-                            human species.
+                        <p>Airbus a lancé le BelugaXL fin 2014 en tant que nouveau super transporteur prenant en charge
+                            la montée en puissance de l'A350 et d'autres augmentations de cadence de production. D'ici
+                            la fin de 2023, six BelugaXL - dérivés du gros-porteur polyvalent A330 de la société -
+                            remplaceront la flotte actuelle de BelugaST.
                         <p>
                             <a class="uk-button uk-button-primary bt-blue" href="beluga.html">En savoir plus</a>
                     </div>
@@ -80,11 +83,14 @@
                     <div class="uk-card-body">
                         <h4 class="uk-text-bold">A380</h4>
                         <h5>Le géant du ciel</h5>
-                        <p>Graçe à son aerodynachibre vectorisé en 3ième degré temporelle, le lelavion a380 est
-                            polyvalencienne en Y orthonormé, ce qui lui offre la possibili tits de tretransporteŕune
-                            masse énorme de twix et de duplo. Écoutez le professeur jean néralcu à ce sujet
+                        <p>L'emblématique A380 a effectué plus de 800 000 vols transportant plus de 300 millions de
+                            passagers depuis son entrée en service.
+
+                            Alors que la production touche à sa fin, l'A380 continuera à voler pendant des décennies et
+                            Airbus continue de soutenir pleinement les exploitants d'A380 et leurs flottes.
                         <p>
-                            <a class="uk-button uk-button-primary bt-blue" href="https://fr.wikipedia.org/wiki/Airbus_A380">En savoir plus</a>
+                            <a class="uk-button uk-button-primary bt-blue"
+                               href="https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a380">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -96,13 +102,13 @@
                     <div class="uk-card-body">
                         <h4 class="uk-text-bold">A350</h4>
                         <h5>Feuille propre. Démarrage propre.</h5>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
-                            mission: to explore strange new worlds, to seek out new life and new civilizations, to
-                            boldly go where no man has gone before. Many say exploration is part of our destiny, but
-                            it’s actually our duty to future generations and their quest to ensure the survival of the
-                            human species.
+                        <p>L'A350 offre une expérience passager ultime, même sur les vols les plus longs. Son design
+                            innovant offre une véritable sensation d'espace, avec de larges sièges, de hauts plafonds et
+                            un éclairage ambiant séduisant.
                         <p>
-                            <a class="uk-button uk-button-primary bt-blue" href="https://aircraft.airbus.com/en/aircraft/a350-clean-sheet-clean-start">En savoir plus</a>
+                            <a class="uk-button uk-button-primary bt-blue"
+                               href="https://aircraft.airbus.com/en/aircraft/a350-clean-sheet-clean-start">En savoir
+                                plus</a>
                     </div>
                 </div>
             </div>
@@ -115,11 +121,13 @@
                     <div class="uk-card-body">
                         <h4 class="uk-text-bold">A220</h4>
                         <h5>L'avion monocouloir révolutionnaire</h5>
-                        <p>Graçe à son aerodynachibre vectorisé en 3ième degré temporelle, le lelavion a380 est
-                            polyvalencienne en Y orthonormé, ce qui lui offre la possibili tits de tretransporteŕune
-                            masse énorme de twix et de duplo. Écoutez le professeur jean néralcu à ce sujet
+                        <p>L'A220 est devenu le grand favori des passagers dans la catégorie des avions de 100 à 150
+                            places, avec des critiques élogieuses pour sa cabine spacieuse, ses grandes fenêtres et ses
+                            grands compartiments de rangement supérieurs, ainsi que pour ses systèmes de divertissement
+                            à bord et son système Wi-Fi.
                         <p>
-                            <a class="uk-button uk-button-primary bt-blue" href="https://aircraft.airbus.com/en/aircraft/a220">En savoir plus</a>
+                            <a class="uk-button uk-button-primary bt-blue"
+                               href="https://aircraft.airbus.com/en/aircraft/a220">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -132,13 +140,13 @@
                     <div class="uk-card-body">
                         <h4 class="uk-text-bold">ACJ330neo</h4>
                         <h5>Luxe et technologie</h5>
-                        <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year
-                            mission: to explore strange new worlds, to seek out new life and new civilizations, to
-                            boldly go where no man has gone before. Many say exploration is part of our destiny, but
-                            it’s actually our duty to future generations and their quest to ensure the survival of the
-                            human species.
+                        <p>L'A330neo, qui combine des moteurs de nouvelle génération, des améliorations aérodynamiques
+                            et autres pour offrir encore plus de confort, d'efficacité et de véritable non-stop à la
+                            gamme mondiale. Conçu pour les marchés VIP et privés très exigeants, l'avion offre un luxe,
+                            un confort et une autonomie haut de gamme.
                         <p>
-                            <a class="uk-button uk-button-primary bt-blue" href="https://www.acj.airbus.com/en/exclusive-aircraft/acj330neo">En savoir plus</a>
+                            <a class="uk-button uk-button-primary bt-blue"
+                               href="https://www.acj.airbus.com/en/exclusive-aircraft/acj330neo">En savoir plus</a>
                     </div>
                 </div>
             </div>

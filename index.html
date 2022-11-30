@@ -18,15 +18,19 @@
 <body>
 <header>
     <div class="uk-container">
-        <nav class="uk-navbar-container" style="background-color: white" uk-navbar>
+        <nav class="uk-navbar-container" uk-navbar>
             <div class="uk-navbar-center uk-margin-medium-top">
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="index.html">ACCUEIL</a></li>
-                    <li>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li class="uk-active">
                         <a href="produit.html">Produit</a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
                                 <li><a href="beluga.html" target=”_blank”>Beluga</a></li>
+                                <li><a href="beluga.html" target=”_blank”>A380</a></li>
+                                <li><a href="beluga.html" target=”_blank”>A350</a></li>
+                                <li><a href="beluga.html" target=”_blank”>A220</a></li>
+                                <li><a href="beluga.html" target=”_blank”>ACJ330neo</a></li>
                                 <li><a href="https://aircraft.airbus.com/en" target=”_blank”>Avions</a></li>
                             </ul>
                         </div>
@@ -41,24 +45,49 @@
     </div>
 </header>
 <main>
-    <div class="uk-margin-large-top">
+    <div>
 
-        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: pull, autoplay: true">
+        <div class="uk-position-relative uk-margin-large-top uk-visible@l uk-visible-toggle uk-light" tabindex="-1"
+             uk-slideshow="animation: pull, autoplay: true">
 
             <ul class="uk-slideshow-items">
                 <li>
-                    <img src="img/slide4.jpeg" alt="" uk-cover>
+                    <img alt="" src="img/slide4.jpeg" uk-cover>
                 </li>
                 <li>
-                    <img src="img/slide2.jpg" alt="" uk-cover>
+                    <img alt="" src="img/slide2.jpg" uk-cover>
                 </li>
                 <li>
-                    <img src="img/slide3.jpg" alt="" uk-cover>
+                    <img alt="" src="img/slide3.jpg" uk-cover>
                 </li>
             </ul>
 
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+               uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+               uk-slideshow-item="next"></a>
+
+        </div>
+
+        <div class="uk-position-relative uk-margin-xlarge-top uk-hidden@l uk-visible-toggle uk-light" tabindex="-1"
+             uk-slideshow="animation: pull, autoplay: true">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img alt="" src="img/slide4.jpeg" uk-cover>
+                </li>
+                <li>
+                    <img alt="" src="img/slide2.jpg" uk-cover>
+                </li>
+                <li>
+                    <img alt="" src="img/slide3.jpg" uk-cover>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+               uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+               uk-slideshow-item="next"></a>
 
         </div>
 
